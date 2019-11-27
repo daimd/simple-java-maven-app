@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine'
-            args '-v/Users/okellodesmond/Desktop/learn-with-desmond/simple-java-maven-app/jenkins/.m2:/root/.m2'
+            args '-u root'
             // args '-v /root/.m2:/root/.m2'
         }
     }
