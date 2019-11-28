@@ -36,7 +36,7 @@ pipeline {
     //     docker{
     //         image 'maven:3-alphine' //this param  downloads  maven docker image and runs this image in a separate container(separate from Jenkins)
     //         // args '-v/root/.m2:root/.m2' // creates a reciprocal mapping btn the /root/.m2 in short-lived and the docker host filesystem
-    //         args '-v/Users/okellodesmond/Desktop/learn-with-desmond/simple-java-maven-app/.m2:/root/.m2'
+    //         
     //     }
     // }
     // stages{
